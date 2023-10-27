@@ -66,3 +66,32 @@ article {
 article header img {
     max-height: 200px;
 }
+
+article > header {
+    text-align: center;
+}
+
+article > header > h2, article > header > p {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 5%;
+}
+
+article > section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 5%;
+}
+
+article > footer {
+    text-align: right;
+    padding: 20px 5%;
+}
+
+article > footer a {
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    text-decoration: none;  /* removes link underline */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 5px 10px;
+}
