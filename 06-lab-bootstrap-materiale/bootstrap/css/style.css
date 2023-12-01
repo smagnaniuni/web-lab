@@ -5,3 +5,10 @@ a:hover {
 article header div img {
     max-height: 200px;
 }
+
+aside section ul li img {
+    float: left;
+    /* max-height: 20px; */
+    width: 50px;
+    margin-right: 5px;
+}
