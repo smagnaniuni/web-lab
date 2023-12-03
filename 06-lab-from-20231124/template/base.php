@@ -18,7 +18,7 @@
         
         <main>
             <?php
-                require($templateparams["nome"]);
+                require("template/" . $templateparams["nome"]);
             ?>
         </main><aside>
             <section>
