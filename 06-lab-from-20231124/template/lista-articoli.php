@@ -1,5 +1,5 @@
-<?php if(isset($templateparams["titolo_pagina"])): ?>
-    <h2><?php echo $templateparams["titolo_pagina"]; ?></h2>
+<?php if(isset($templateparams["titolo"])): ?>
+    <h2><?php echo $templateparams["titolo"]; ?></h2>
 <?php endif; ?>
 
 <?php foreach ($templateparams["articoli"] as $articolo): ?>
